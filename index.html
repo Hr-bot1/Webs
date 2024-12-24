@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper: Fetch HTML Source</title>
+
+    <!-- Favicon for the website (replace with your own icon file) -->
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/67/Telegram_logo.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Md HR`s Web Scraper</h1>
+        
+        <!-- Form to submit the URL -->
+        <form id="urlForm">
+            <input type="url" id="urlInput" name="url" placeholder="Enter URL here" required />
+            <button type="submit">Fetch HTML</button>
+        </form>
+        
+        <!-- Section to display fetched HTML -->
+        <h2>HTML Source:</h2>
+        <textarea id="htmlOutput" readonly placeholder="The HTML source will appear here..."></textarea>
+
+        <!-- Telegram contact link (icon) -->
+        <div class="telegram-icon">
+            <a href="https://t.me/Termux_Team_BD" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Telegram_logo.svg" alt="Telegram" />
+            </a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
